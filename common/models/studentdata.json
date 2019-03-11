@@ -1,0 +1,85 @@
+{
+  "name": "studentdata",
+  "plural": "studentdata",
+  "base": "PersistedModel",
+  
+  "options": {
+    "idInjection": false,
+    "mysql": {
+      "schema": "student",
+      "table": "studentdata"
+    },
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true,
+      "mysql": {
+        "columnName": "id",
+        "dataType": "number",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      
+    }
+    },
+    "lname": {
+      "type": "string",
+      "required": true,
+      "mysql": {
+        "columnName": "lname",
+        "dataType": "string",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      
+    }
+  },
+    "fname": {
+      "type": "string",
+      "required": true,
+      "mysql": {
+        "columnName": "fname",
+        "dataType": "string",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      
+    }
+    },
+    "emailid": {
+      "type": "string",
+      "required": true,
+      "mysql": {
+        "columnName": "emailid",
+        "dataType": "string",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      
+    }
+    },
+    "percentage": {
+      "type": "number",
+      "required": true,
+      "mysql": {
+        "columnName": "percentage",
+        "dataType": "number",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      
+    }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
